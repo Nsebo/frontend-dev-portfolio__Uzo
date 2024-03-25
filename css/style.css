@@ -10,7 +10,7 @@
 }
 
 :root {
-  --bg-color: #c6a893;
+  --bg-color: #c6a693;
   --second-bg-color: #518d90;
   --text-color: #fff;
   --main-color: rgb(3, 21, 18);
@@ -114,7 +114,7 @@ span {
 }
 
 .home-img {
-  border-radius: 50%;
+  border-radius: 100%;
   background-color: rgb(13, 18, 21);
   box-shadow: 0 0 25px rgb(13, 18, 21);
 }
@@ -211,7 +211,7 @@ span {
   margin: 2rem 0 3rem;
 }
 
-/* projects */
+/* projects 
 
 .projects h2 {
   margin-bottom: 5rem;
@@ -255,7 +255,7 @@ span {
   font-size: 1.6rem;
   margin: 1rem 0 3rem;
 }
-
+*/
 /* webkit  the code below is the scrolling bar on the page*/
 
 ::-webkit-scrollbar {
@@ -274,7 +274,7 @@ span {
 /* portfolio */
 
 .portfolio {
-  background: var(--second-bg-color);
+  background: var(--bg-color);
 }
 
 .portfolio h2 {
@@ -350,6 +350,9 @@ span {
 }
 
 /* Contact Me */
+.contact {
+  background: var(--second-bg-color);
+}
 
 .contact h2 {
   margin-bottom: 3rem;
@@ -387,7 +390,7 @@ span {
   bottom: 0;
   width: 100%;
   padding: 40px 0;
-  background-color: var(--second-bg-color);
+  background-color: var(--bg-color);
 }
 
 .footer .social {
@@ -463,7 +466,6 @@ span {
     padding: 10rem 3% 2rem;
   }
 
-  .projects,
   .portfolio {
     padding-bottom: 7rem;
   }
@@ -515,7 +517,6 @@ span {
     flex-direction: column-reverse;
   }
 
-  .projects h2,
   .portfolio h2 {
     margin-bottom: 3rem;
   }
